@@ -42,7 +42,7 @@ def main():
 
             ist_now = datetime.datetime.now(pytz.timezone('Asia/Kolkata')).strftime("%d/%m/%y %I:%M:%S %p")
 
-            edit_text += f"\n🎯 𝙇𝙖𝙨𝙩 𝙪𝙥𝙙𝙖𝙩𝙚𝙙 & 𝙘𝙝𝙚𝙘𝙠𝙚𝙙 𝙤𝙣: \n\n__{str(ist_now)}__ 🇮🇳 IST\n__{utc_now}__ 🌎 UTC"
+            edit_text += f"\n\n<a href="https://t.me/MaxxBots/50">🌲 OTHERS BOTS 🌲</a>:\n\n🎯 𝙇𝙖𝙨𝙩 𝙪𝙥𝙙𝙖𝙩𝙚𝙙 & 𝙘𝙝𝙚𝙘𝙠𝙚𝙙 𝙤𝙣: \n\n__{str(ist_now)}__ 🇮🇳 IST\n__{utc_now}__ 🌎 UTC"
 
             user_client.edit_message_text(update_channel, status_message_id,
                                          edit_text)
